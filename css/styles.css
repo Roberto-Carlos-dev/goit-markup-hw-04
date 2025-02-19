@@ -260,7 +260,16 @@ width: calc((100% - 72px) / 4);
 }
   .benefits-icon{
     display: flex;
+    border: 1px solid #8e8f99;
     background-color: #f4f4fd;
+    gap:24px;
+    align-items: center;
+    justify-content: center; 
+    height: 112px;
+    background-color: #f4f4fd; 
+    width: 100%;
+    margin-bottom: 8px;
+    border-radius: 4px; 
 
   }
 
