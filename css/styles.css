@@ -153,11 +153,12 @@ button{
 /* hero */
 
 .hero-container{
-    display: block;
+  display: block;
   padding: 188px 0 188px;
 }
 
 .hero{
+  margin: 0% auto;
   display: block;
   padding: 188px 0 188px;
   background-color:  #2e2f42;
@@ -183,7 +184,7 @@ button{
   color: #fff;
   margin-bottom: 48px;
   background-size: cover;
-}
+ }
 
 .hero-button{
   display: block;
@@ -260,8 +261,7 @@ width: calc((100% - 72px) / 4);
 }
   .benefits-icon{
     display: flex;
-    border: 1px solid #8e8f99;
-    background-color: #f4f4fd;
+     background-color: #f4f4fd;
     gap:24px;
     align-items: center;
     justify-content: center; 
@@ -269,9 +269,7 @@ width: calc((100% - 72px) / 4);
     background-color: #f4f4fd; 
     width: 100%;
     margin-bottom: 8px;
-    border-radius: 4px; 
-
-  }
+   }
 
 /* #endregion benefits */
 
