@@ -230,6 +230,17 @@ button{
 width: calc((100% - 72px) / 4);
 }
 
+.benefits-container-icon{
+  display: flex;
+  height: 112px;
+   background-color: #f4f4fd;
+    gap:24px;
+    align-items: center;
+    justify-content: center; 
+     width: 100%;
+    margin-bottom: 8px;
+}
+
 .benefits-item-title{
   display: flex;
   font-weight: 500;
@@ -260,16 +271,7 @@ width: calc((100% - 72px) / 4);
   overflow: hidden;
 }
   .benefits-icon{
-    display: flex;
-     background-color: #f4f4fd;
-    gap:24px;
-    align-items: center;
-    justify-content: center; 
-    height: 112px;
-    background-color: #f4f4fd; 
-    width: 100%;
-    margin-bottom: 8px;
-   }
+     }
 
 /* #endregion benefits */
 
