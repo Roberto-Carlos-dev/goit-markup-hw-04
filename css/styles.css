@@ -468,9 +468,9 @@ gap: 16px;
   display: flex;
   gap: 16px;
   width: 40px; 
-  background-color: #4d5ae5;
- 
-  
+  /* background-color: #4d5ae5; */
+  fill: #f4f4fd;
+  border-radius: 50%;
 }
 
 .social-icons:hover
