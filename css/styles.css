@@ -154,8 +154,7 @@ button{
 
 .hero-container{
   display: block;
-  padding: 188px 0 188px;
-}
+ }
 
 .hero{
   margin: 0% auto;
@@ -207,13 +206,7 @@ button{
 .hero-button:hover, .hero-button:focus{
       background-color: #404bbf;
 }
-
-
-.footer-social-item{
-
-}
-
-/* #endregion hero */
+ /* #endregion hero */
 
 /* #region benefits */
 
@@ -272,9 +265,7 @@ width: calc((100% - 72px) / 4);
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
-  .benefits-icon{
-     }
-
+ 
 /* #endregion benefits */
 
 /* #region our team */
@@ -284,8 +275,7 @@ width: calc((100% - 72px) / 4);
   padding: 120px 0;
   background-color: #F4F4FD;
   align-items: center;
-  max-width: 1440px;
-  margin: 0 auto;
+   margin: 0 auto;
 } 
 
 .our-team-title{
@@ -390,7 +380,7 @@ width: calc((100% - 72px) / 4);
  .portfolio-list-item{
    position: relative;
    overflow: hidden;
-   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition-property: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
    width: calc((100% - 48px) / 3)
   
@@ -401,8 +391,9 @@ width: calc((100% - 72px) / 4);
   overflow: hidden;
  }
 
- .tumba:hover .sub-tumba{
+ .portfolio-list-item:hover .sub-tumba{
   transform: translateY(0);
+  box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
  }
 
  .sub-tumba{
@@ -448,8 +439,7 @@ width: calc((100% - 72px) / 4);
 .page-footer{
    background-color: #2e2f42;
    padding: 100px 0;
-   max-width: 1440px;
-   margin: 0 auto;
+    margin: 0 auto;
   }
 
   .footer-container{
@@ -512,10 +502,5 @@ width: calc((100% - 72px) / 4);
 }
 .social-icons {
 gap: 16px;
-width: 24px;
-height: 24px;
-  }
-
-
-
+}
  /* footer */
